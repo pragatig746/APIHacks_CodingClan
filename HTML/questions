@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Questions!</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="questions.css">
+</head>
+<body>
+<div class="wrapper">
+    <p> Do You....</p>
+    <form>
+         <input type="text" class="input" placeholder="practice (Jogging/Treadmill)?">
+         <input type="text" class="input" placeholder="use (LED/Bulb)?">
+         <input type="text" class="input" placeholder="use Solar Panels (Yes/No)?">
+         <input type="text" class="input" placeholder="use (Public/Private) transport?">
+         <input type="text" class="input" placeholder="take (Vegan/Vegetarian/Non-Vegetarian) diet?">
+         <input type="text" class="input" placeholder="use (Public/Private) transport?">
+         <input type="text" class="input" placeholder="use Air Conditioner(Yes/No)?">
+         <input type="text" class="input" placeholder="use (Jute Bags/Polyethene Bags)?">
+         <input type="text" class="input" placeholder="go for shopping frequently (Yes/No)?">
+         <input type="text" class="input" placeholder="have (Laptop/Desktop)?">
+         <input type="text" class="input" placeholder="keep your car's fuel efficiency in check(Yes/No)?">
+         <input type="text" class="input" placeholder="take flights for a shorter journey(Yes/No)?">
+         <input type="text" class="input" placeholder="use farming equipment powered by (Diesel/Petrol)?">
+         <input type="submit" value="submit">
+    </form>
+</body>
+</html>
